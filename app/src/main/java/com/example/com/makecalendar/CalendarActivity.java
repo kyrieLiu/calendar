@@ -48,6 +48,7 @@ public class CalendarActivity extends Activity {
 	private ImageView preMonth; // 上一月文本框
 	private TextView selectDateAndTime;
 	private TimePicker timePicker;
+	//修改文件
 
 	private List<String> dutyList;//值班标识集合
 
@@ -138,7 +139,6 @@ public class CalendarActivity extends Activity {
 
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
-
 		return this.gestureDetector.onTouchEvent(event);
 	}
 
