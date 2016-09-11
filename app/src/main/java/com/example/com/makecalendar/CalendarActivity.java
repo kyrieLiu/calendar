@@ -50,7 +50,7 @@ public class CalendarActivity extends Activity {
 	private TimePicker timePicker;
 	//修改文件
 
-	//本地缓存
+	//我是master
 
 	private List<String> dutyList;//值班标识集合
 
