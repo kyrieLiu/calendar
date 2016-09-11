@@ -51,6 +51,7 @@ public class CalendarActivity extends Activity {
 	//修改文件
 
 	//本地缓存
+	//我是master
 
 	private List<String> dutyList;//值班标识集合
 
