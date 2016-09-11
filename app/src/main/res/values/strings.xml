@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MakeCalendar</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="addItemHint">添加新的待办事项</string>
+    <string name="addItemContentDescription">新的待办事项</string>
+    <string name="delete">删除</string>
+    <string name="edit">修改</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="addNew">新增</string>
+    <string name="title_activity_calendar_and_time">CalendarAndTimeActivity</string>
+    <string name="title_activity_data_and_time">DataAndTimeActivity</string>
+    <string name="sunday_text">周日</string>
+    <string name="monday_text">周一</string>
+    <string name="tuesday_text">周二</string>
+    <string name="wednesday_text">周三</string>
+    <string name="thursday_text">周四</string>
+    <string name="friday_text">周五</string>
+    <string name="saturday_text">周六</string>
+    <string name="today_text">今天</string>
+    <string name="now_text">现在</string>
+    <string name="choice_date_text">请选择日期</string>
+    <string name="choice_time_text">请选择时间</string>
+    <string name="item_task_text">事项</string>
+    <string name="item_time_text">时间</string>
+    <string name="item_alert_text">提醒</string>
+    <string name="item_priority_text">优先级</string>
+    <string name="item_duplicate_text">重复</string>
+    <string name="item_duplicate_contentDescription">重复周期</string>
+</resources>

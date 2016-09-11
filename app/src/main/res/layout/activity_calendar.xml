@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+      >
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="2016年9月"
+            android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/left_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/onduty_left"
+                android:layout_toLeftOf="@+id/tv_month"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:textSize="16.0dip" />
+
+            <ImageView
+                android:id="@+id/right_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/onduty_right"
+                android:layout_toRightOf="@+id/tv_month"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textSize="16.0dip" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/icon_calendar_logo"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="24.0dip"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            style="@style/weekName"
+            android:text="SUN" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="MON" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="TUE" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="WED" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="THU" />
+
+        <TextView
+            style="@style/weekName"
+            android:text="FRI" />
+        <TextView
+            style="@style/weekName"
+            android:text="SAT" />
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:layout_marginTop="5dp"
+    android:background="#f4f4f4"
+    ></View>
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:clickable="true"
+        android:clipChildren="true"
+        android:columnWidth="55.0dip"
+        android:horizontalSpacing="1.0dip"
+        android:listSelector="@null"
+        android:numColumns="7"
+        android:paddingBottom="1.0dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1.0dip" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#f4f4f4"
+        ></View>
+
+</LinearLayout>
